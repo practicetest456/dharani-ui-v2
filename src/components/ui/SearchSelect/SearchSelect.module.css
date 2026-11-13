@@ -1,0 +1,38 @@
+.list {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 5;
+    margin-top: 4px;
+    max-height: 240px;
+    overflow: auto;
+    background: #fff;
+    color: #000;
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-sm);
+    box-shadow: var(--shadow-popup);
+}
+
+.item {
+    display: block;
+    width: 100%;
+    text-align: left;
+    border: 0;
+    background: #fff;
+    color: #000;
+    padding: 8px 12px;
+    font-size: var(--font-md);
+    cursor: pointer;
+}
+
+.item:hover,
+.item[aria-selected='true'] {
+    background: #e4efe8;
+}
+
+.empty {
+    padding: 12px;
+    color: #444;
+    text-align: center;
+}

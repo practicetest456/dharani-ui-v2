@@ -1,0 +1,20 @@
+.button {
+    background: var(--color-primary);
+    color: var(--color-primary-ink);
+    border: 0;
+    border-radius: var(--radius-sm);
+    padding: 10px 26px;
+    font-size: var(--font-md);
+    font-weight: var(--font-semibold);
+    cursor: pointer;
+}
+
+.secondary {
+    background: var(--color-soft);
+    color: var(--color-text);
+}
+
+.button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}

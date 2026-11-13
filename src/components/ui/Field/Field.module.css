@@ -1,0 +1,27 @@
+.field {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    font-size: 12.5px;
+    font-weight: var(--font-medium);
+}
+
+.label i {
+    color: var(--color-danger);
+    font-style: normal;
+}
+
+.control {
+    width: 100%;
+    padding: 9px 10px;
+    color: var(--color-text);
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-sm);
+    text-align: left;
+}
+
+.control:disabled {
+    opacity: 0.55;
+}

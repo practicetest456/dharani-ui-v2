@@ -1,0 +1,30 @@
+.header {
+    display: flex;
+    align-items: flex-end;
+    gap: 12px;
+    border-bottom: 1px solid var(--color-border);
+    margin-bottom: 22px;
+}
+
+.title {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 700;
+    padding-bottom: 8px;
+    border-bottom: 2px solid var(--color-primary);
+    margin-bottom: -1px;
+}
+
+.spacer {
+    flex: 1;
+}
+
+.back {
+    background: var(--color-primary);
+    color: var(--color-primary-ink);
+    border-radius: var(--radius-sm);
+    padding: 8px 20px;
+    font-weight: 600;
+    text-decoration: none;
+    margin-bottom: 8px;
+}

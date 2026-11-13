@@ -1,0 +1,18 @@
+.output {
+    min-height: 240px;
+    display: grid;
+}
+
+.output iframe {
+    width: 100%;
+    height: 640px;
+    border: 0;
+    background: #fff;
+}
+
+.empty {
+    place-self: center;
+    color: var(--color-text-muted);
+    text-align: center;
+    padding: 32px;
+}

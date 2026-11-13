@@ -1,0 +1,19 @@
+/* Design tokens: colours, radius, shadows, layout. Components only use these variables. */
+:root {
+    --color-bg: #f4f6f8;
+    --color-surface: #fff;
+    --color-text: #1d2530;
+    --color-text-muted: #5f6b7a;
+    --color-border: #dfe4ea;
+    --color-primary: #0a6b3a;
+    --color-primary-ink: #fff;
+    --color-soft: #eceff2;
+    --color-danger: #d4161c;
+    --color-danger-bg: #fdecec;
+
+    --radius-sm: 6px;
+    --radius-md: 10px;
+    --radius-lg: 14px;
+    --shadow-popup: 0 8px 24px rgba(0, 0, 0, 0.18);
+    --layout-max-width: 1120px;
+}

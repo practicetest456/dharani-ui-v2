@@ -1,0 +1,13 @@
+.group {
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+    margin-bottom: 16px;
+}
+
+.option {
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    cursor: pointer;
+}
